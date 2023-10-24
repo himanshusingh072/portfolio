@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        nav{
+            text-align: auto;
+            justify-content: center;
+            display: flex;
+            padding: 0 10px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+        nav ul li{
+            margin: 10px;
+            padding: 5px;
+        }
+        nav ul li:hover{
+            border: 1px solid gray;
+            cursor: pointer;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font: bold;
+        }
+        .about{
+            padding: 20%;
+            font-size: x-large;    
+        }
+        span{
+            color: aqua;
+        }
+        .h1aboutme{
+            text-align: center;
+            color: greenyellow;
+        }
+        .paboutme{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:x-large;
+            margin: 1%;
+            padding: 5%;
+        }
+        .about-col{
+            
+            width: 30%;
+            padding: 0.5%;
+            margin: 0 1%;
+            background-color: #ffffff54;
+            border-radius: 5px;
+            display:inline-table;
+        }
+        .about-all{
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+        .about-col-h2{
+            text-align: center;
+            color:greenyellow;
+        }
+        #about-col{
+            padding-bottom: 10.2%;
+        }
+        #about-col1{
+            padding-bottom: 13%;
+        }
+        .h1-service{
+            color: greenyellow;
+            text-align: center;
+        }
+        .service-p{
+            font-size: x-large;
+        }
+        .service-img{
+            
+            width: 30%;
+            padding-left: 3%;
+            
+            background-color: rgb(109, 109, 109);
+            border-radius: 5px;
+            display:inline-table;
+        }
+        .serv-img{
+            padding-bottom: 16%;
+        }
+        .serv-img1{
+            padding-bottom: 11.5%;
+        }
+        #service-image{
+            width:50%;
+        }
+        #learn-more{
+            text-decoration: none;
+            color:aqua;
+            justify-content: center;
+            text-align: auto;
+            display: flex;
+            padding: 1%;
+            width: 10%;
+            margin-top: 1%;
+            margin-left: 44%;
+        }
+        #learn-more:hover{
+            border: 1px solid gray;
+            
+        }
+        .project{
+            text-align: center;
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+        .project-h1{
+            color: greenyellow;
+        }
+        .project-p{
+            font-size: x-large;
+        }
+        .anyquery{
+            text-align: center;
+        }
+        .anyquery-h1{
+            color: greenyellow;
+        }
+        .anyquery-form{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            padding: 1%;
+            margin-bottom: 10%;
+        }
+        #data{
+            padding: 0.5%;
+            margin: 0.5%;
+            width: 30%;
+            background-color: rgb(202, 201, 201);
+            border-radius: 7px;
+        }
+        #data-msg{
+            width: 36%;
+            background-color: rgb(202, 201, 201);
+            border-radius: 10px;
+            padding: 0.5%;
+            
+        }
+        #submit{
+            margin-top: 1%;
+            padding: 0.5%;
+            width: 10%;
+            border-radius: 10px;
+            background-color: orangered;
+            font-size: large;
+            color: white;
+        }
+        #submit:hover{
+            background-color: rgb(148, 39, 0);
+            cursor: pointer;
+        }
+        .contect{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+            width: 40%;
+            margin-left: 30%;
+            border: 3px solid gray;
+            
+        }
+        .contect-h1{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="about">
+            <section>
+                <p>IT Undergraduate</p>
+                <h1>Hi, I'm <span>Himanshu </span>Singh</h1>
+                <p>I'm in <span class="auto-type">Web Developer.</span>
+                </p>
+            </section>
+        </div>
+        <hr>
+        <!-------About ME------->
+        <div>
+            <div class="aboutme">
+                <h1 class="h1aboutme">About Me</h1>
+                <p class="paboutme">I am Second year <span>Information Technology</span> student at NIET. I keen to learn new technologies and always try to give my
+                    best to my work.
+                    I am familiar with development works. I have intermediate experience in Web
+                    Development.
+                    I am also familiar with<span> C, Java, Python </span>and some other languages. I am also a avid problem
+                    solver.
+                    Always looking for an opportunity. I am also interested in Theoretical Computer Science.<br>
+
+                    Relevant Courseworks:<span> Data Structures, Algorithm, Discrete Mathematics, TOC, Engg. Math,
+                    Operating Systems, DBMS.</span>
+                </p>
+            </div>
+            
+            <div class="about-all">
+            <div class="about-col" id="about-col">
+                <h2 class="about-col-h2">Skills</h2>
+                <ul>
+                    <li><span>Programming languages</span><br>Familiar with C, Java, Python and Other Languages</li>
+                    <li><span>Web Development</span><br>Designing websites with HTML, CSS, JavaScript</li>
+                    <li><span>Databases</span><br>MySql, Sqllite</li>
+                </ul>
+            </div>
+            <div class="about-col">
+                <h2 class="about-col-h2">Education</h2>
+                <ul>
+                    <li><span>2022-present</span><br>NOIDA INSTITUTE OF ENGINEERING AND Technology<br>B.Tech in Information Technology<br>CGPA: 8.0</li>
+                    <li><span>2022 Intermediate</span><br>RNP public school. chhapra<br>Percentage: 86%</li>
+                    <li><span>2020 High School</span><br>DAv public school. chhapra<br>Percentage: 90%
+                    </li>
+                </ul>
+            </div>
+            <div class="about-col" id="about-col1">
+                <h2 class="about-col-h2">More</h2>
+                <ul>
+                    <li><span>Location</span><br>Chhapra, Bihar</li>
+                    <li><span>Languages</span><br>English, Hindi, French</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        
+        <!------Services------>
+        <div class="services">
+            <h1 class="h1-service">My Services</h1>
+            <div class="service-p">
+                <div class="service-img" id="a">
+                    <h3>Web Developer</h3>
+                    <img class="serv-img"src="https://www.seekpng.com/png/detail/492-4929420_web-development-clipart-logo-png-web-development-logo.png"alt="" id="service-image">
+                </div>
+                <div class="service-img" id="a">
+                    <h3>App Developer</h3>
+                    <img class="serv-img1"src="https://www.nicepng.com/png/detail/29-290577_png-library-mobile-apps-developer-development-company-android.png" alt="" id="service-image">
+                </div>
+                <div class="service-img" id="a">
+                    <h3>Python Developer</h3>
+                    <img src="https://dxminds.com/wp-content/uploads/2021/03/Reasons-to-hire-python-web-developers-from-DxMinds.png" alt=""id="service-image">
+                </div>
+                <a href="#" id="learn-more">Learn More</a>
+            </div>
+        </div>
+        <div class="project">
+            <h1 class="project-h1">Projects</h1>
+            <div class="project-p">
+                <p>Some of my project:</p>
+                <p><span>Calculator , Landing Page , portfolio , Netflix Home Page</span></p>
+            </div>
+        </div>
+        <!------Any Qurey------>
+        <div>
+            <div class="anyquery">
+                <h1 class="anyquery-h1">Any Query</h1>
+                <form class="anyquery-form">
+                    <label><span>Name:</span></label>
+                    <input type="text" placeholder="Enter Your Name" name="name" required id="data">
+                    <br>
+                    <label><span>Email:</span></label>
+                    <input type="email" placeholder="Enter Your Email" name="email" required id="data">
+                    <br>
+                    <label><span>Phone:</span></label>
+                    <input type="number" placeholder="Enter Your Phone Number" name="number"required id="data">
+                    <br>
+                    <textarea name="message" rows="5" placeholder="Enter Your Message" required id="data-msg"></textarea>
+                    <br>
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-------Contact------->
+        <div class="contect">
+            <h1 class="contect-h1">Contact Me</h1>
+            <div>
+                <p>Email: hs0860308@gmail.com</p>
+                <p>Phone: 91+7643997090</p>
+                <p>Linkedin: https://www.linkedin.com/in/himanshu-singh-0a6328251</p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script>src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"</script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["web Designer","web developer","app developer"],
+            typeSpeed:100,
+            BackSpeed:60,
+            loop:true
+        })
+    </script>
+</body>
+</html>
